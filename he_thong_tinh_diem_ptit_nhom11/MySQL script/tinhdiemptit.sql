@@ -8,7 +8,6 @@ CREATE TABLE users (
   enabled tinyint(1) NOT NULL,
   PRIMARY KEY (username)
 ) CHARACTER SET UTF8;
-
 INSERT INTO users
 VALUES 
 ('admin','{bcrypt}$2a$10$9zi5mDR0iCTlWHG8jknu/uCtTE7qgzGepTTg9nNI4a81yy6f6GKhq',1),
